@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+.next/
+out/
+storybook-static/
+
+# Env and local files
+.env
+.env.*.local
+*.log
