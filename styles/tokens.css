@@ -33,54 +33,54 @@
   --transparent-primary: rgba(31, 71, 81, 0.6);
   --primary-stroke: rgba(77, 136, 152, 0.3);
   --type-family-base: Outfit; /** The single family used across the product */
-  --type-weight-regular: Regular;
-  --type-weight-medium: Medium;
-  --type-weight-semibold: SemiBold; /** Figma spells this "SemiBold", not "Semi Bold" */
-  --type-size-10: 10; /** 10pt */
-  --type-size-11: 11; /** 11pt */
-  --type-size-12: 12; /** 12pt */
-  --type-size-13: 13; /** 13pt */
-  --type-size-14: 14; /** 14pt */
-  --type-size-15: 15; /** 15pt */
-  --type-size-16: 16; /** 16pt */
-  --type-size-17: 17; /** 17pt */
-  --type-size-18: 18; /** 18pt */
-  --type-size-20: 20; /** 20pt */
-  --type-size-22: 22; /** 22pt */
-  --type-size-28: 28; /** 28pt */
-  --type-size-40: 40; /** 40pt */
-  --space-0: 0; /** 0pt */
-  --space-2: 2; /** 2pt */
-  --space-4: 4; /** 4pt */
-  --space-6: 6; /** 6pt */
-  --space-8: 8; /** 8pt */
-  --space-10: 10; /** 10pt */
-  --space-12: 12; /** 12pt */
-  --space-16: 16; /** 16pt */
-  --space-20: 20; /** 20pt */
-  --space-24: 24; /** 24pt */
-  --space-32: 32; /** 32pt */
-  --space-40: 40; /** 40pt */
-  --space-48: 48; /** 48pt */
-  --space-56: 56; /** 56pt */
-  --radius-none: 0; /** 0pt */
-  --radius-xs: 4; /** 4pt */
-  --radius-sm: 8; /** 8pt */
-  --radius-md: 12; /** 12pt */
-  --radius-lg: 16; /** 16pt */
-  --radius-xl: 20; /** 20pt */
-  --radius-2xl: 24; /** 24pt */
-  --radius-full: 999; /** Fully rounded */
-  --size-icon-sm: 16; /** Inline glyph inside chips and meta rows */
-  --size-icon-md: 20; /** Standard UI glyph */
-  --size-icon-lg: 24; /** Navigation and toolbar glyph */
-  --size-touch-min: 44; /** Apple HIG minimum tappable area */
-  --size-control-sm: 36; /** Compact control height (chips) */
-  --size-control-md: 44; /** Default control height */
-  --size-control-lg: 52; /** Prominent control height (primary button) */
-  --size-avatar-sm: 32;
-  --size-avatar-md: 44;
-  --size-avatar-lg: 56;
+  --type-weight-regular: 400;
+  --type-weight-medium: 500;
+  --type-weight-semibold: 600; /** Figma spells this "SemiBold", not "Semi Bold" */
+  --type-size-10: 10px; /** 10pt */
+  --type-size-11: 11px; /** 11pt */
+  --type-size-12: 12px; /** 12pt */
+  --type-size-13: 13px; /** 13pt */
+  --type-size-14: 14px; /** 14pt */
+  --type-size-15: 15px; /** 15pt */
+  --type-size-16: 16px; /** 16pt */
+  --type-size-17: 17px; /** 17pt */
+  --type-size-18: 18px; /** 18pt */
+  --type-size-20: 20px; /** 20pt */
+  --type-size-22: 22px; /** 22pt */
+  --type-size-28: 28px; /** 28pt */
+  --type-size-40: 40px; /** 40pt */
+  --space-0: 0px; /** 0pt */
+  --space-2: 2px; /** 2pt */
+  --space-4: 4px; /** 4pt */
+  --space-6: 6px; /** 6pt */
+  --space-8: 8px; /** 8pt */
+  --space-10: 10px; /** 10pt */
+  --space-12: 12px; /** 12pt */
+  --space-16: 16px; /** 16pt */
+  --space-20: 20px; /** 20pt */
+  --space-24: 24px; /** 24pt */
+  --space-32: 32px; /** 32pt */
+  --space-40: 40px; /** 40pt */
+  --space-48: 48px; /** 48pt */
+  --space-56: 56px; /** 56pt */
+  --radius-none: 0px; /** 0pt */
+  --radius-xs: 4px; /** 4pt */
+  --radius-sm: 8px; /** 8pt */
+  --radius-md: 12px; /** 12pt */
+  --radius-lg: 16px; /** 16pt */
+  --radius-xl: 20px; /** 20pt */
+  --radius-2xl: 24px; /** 24pt */
+  --radius-full: 999px; /** Fully rounded */
+  --size-icon-sm: 16px; /** Inline glyph inside chips and meta rows */
+  --size-icon-md: 20px; /** Standard UI glyph */
+  --size-icon-lg: 24px; /** Navigation and toolbar glyph */
+  --size-touch-min: 44px; /** Apple HIG minimum tappable area */
+  --size-control-sm: 36px; /** Compact control height (chips) */
+  --size-control-md: 44px; /** Default control height */
+  --size-control-lg: 52px; /** Prominent control height (primary button) */
+  --size-avatar-sm: 32px;
+  --size-avatar-md: 44px;
+  --size-avatar-lg: 56px;
   --ink-900-alias: var(--ink-900);
   --sand-300-alias: var(--sand-300);
   --accent-500: var(--brand-500);

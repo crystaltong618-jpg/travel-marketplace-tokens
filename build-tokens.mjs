@@ -27,6 +27,34 @@ for (const set of SETS) {
   merge(tokens, source[set]);
 }
 
+
+// Figma exports font weights as names and sizes as bare numbers.
+// CSS needs numeric weights and px units, so convert them here.
+const WEIGHTS = { regular: 400, medium: 500, semibold: 600 };
+const DIMENSION_ROOTS = new Set(["space", "radius", "size"]);
+
+function fixLeaves(node, path = []) {
+  if (!node || typeof node !== "object") return;
+  if ("$value" in node) {
+    const [root, group, name] = path;
+    const value = node.$value;
+    if (root === "type" && group === "weight" && WEIGHTS[name] !== undefined) {
+      node.$type = "fontWeight";
+      node.$value = WEIGHTS[name];
+    } else if (root === "type" && group === "size" && typeof value === "number") {
+      node.$type = "dimension";
+      node.$value = `${value}px`;
+    } else if (DIMENSION_ROOTS.has(root) && typeof value === "number") {
+      node.$type = "dimension";
+      node.$value = `${value}px`;
+    }
+    return;
+  }
+  for (const [key, child] of Object.entries(node)) fixLeaves(child, [...path, key]);
+}
+
+fixLeaves(tokens);
+
 mkdirSync("styles", { recursive: true });
 writeTokensFile(tokens);
 
