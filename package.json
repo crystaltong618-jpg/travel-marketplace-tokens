@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "style-dictionary": "^4.4.0"
+  },
+  "type": "module",
+  "scripts": {
+    "tokens": "node build-tokens.mjs"
+  }
+}

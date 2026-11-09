@@ -1,0 +1,104 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --cream-0: #f7f3ea;
+  --cream-50: #f3efe4;
+  --ink-900: #0d2e37;
+  --ink-950: #091b20;
+  --olive-800: #2e3122;
+  --olive-900: #22241a;
+  --sand-300: #c7bfa8;
+  --sand-400: #a6a392; /** Muted warm grey — secondary text on dark */
+  --mist-200: #dadfe1;
+  --brand-300: #ffd976; /** Brand yellow, light tint — brand text on dark */
+  --brand-500: #ffc94d;
+  --brand-700: #8a5f00;
+  --success-500: #7fa37a;
+  --success-700: #4a7a45; /** Success at light-theme contrast */
+  --danger-500: #c96b4e;
+  --danger-700: #a34328; /** Danger at light-theme contrast */
+  --teal-300: #22c7ae;
+  --teal-500: #1f7a6c;
+  --teal-800: #0f4a40;
+  --white: #ffffff;
+  --slate-200: #d9d4c7; /** Light-theme border */
+  --slate-400: #8a979b; /** Light-theme tertiary text */
+  --slate-500: #5b6b70; /** Light-theme secondary text */
+  --button-background: rgba(9, 27, 32, 0.8);
+  --light-teal-01: #32616d;
+  --light-teal-02: #245f6f;
+  --secondary-yellow: #2a2410;
+  --transparent-primary: rgba(31, 71, 81, 0.6);
+  --primary-stroke: rgba(77, 136, 152, 0.3);
+  --type-family-base: Outfit; /** The single family used across the product */
+  --type-weight-regular: Regular;
+  --type-weight-medium: Medium;
+  --type-weight-semibold: SemiBold; /** Figma spells this "SemiBold", not "Semi Bold" */
+  --type-size-10: 10; /** 10pt */
+  --type-size-11: 11; /** 11pt */
+  --type-size-12: 12; /** 12pt */
+  --type-size-13: 13; /** 13pt */
+  --type-size-14: 14; /** 14pt */
+  --type-size-15: 15; /** 15pt */
+  --type-size-16: 16; /** 16pt */
+  --type-size-17: 17; /** 17pt */
+  --type-size-18: 18; /** 18pt */
+  --type-size-20: 20; /** 20pt */
+  --type-size-22: 22; /** 22pt */
+  --type-size-28: 28; /** 28pt */
+  --type-size-40: 40; /** 40pt */
+  --space-0: 0; /** 0pt */
+  --space-2: 2; /** 2pt */
+  --space-4: 4; /** 4pt */
+  --space-6: 6; /** 6pt */
+  --space-8: 8; /** 8pt */
+  --space-10: 10; /** 10pt */
+  --space-12: 12; /** 12pt */
+  --space-16: 16; /** 16pt */
+  --space-20: 20; /** 20pt */
+  --space-24: 24; /** 24pt */
+  --space-32: 32; /** 32pt */
+  --space-40: 40; /** 40pt */
+  --space-48: 48; /** 48pt */
+  --space-56: 56; /** 56pt */
+  --radius-none: 0; /** 0pt */
+  --radius-xs: 4; /** 4pt */
+  --radius-sm: 8; /** 8pt */
+  --radius-md: 12; /** 12pt */
+  --radius-lg: 16; /** 16pt */
+  --radius-xl: 20; /** 20pt */
+  --radius-2xl: 24; /** 24pt */
+  --radius-full: 999; /** Fully rounded */
+  --size-icon-sm: 16; /** Inline glyph inside chips and meta rows */
+  --size-icon-md: 20; /** Standard UI glyph */
+  --size-icon-lg: 24; /** Navigation and toolbar glyph */
+  --size-touch-min: 44; /** Apple HIG minimum tappable area */
+  --size-control-sm: 36; /** Compact control height (chips) */
+  --size-control-md: 44; /** Default control height */
+  --size-control-lg: 52; /** Prominent control height (primary button) */
+  --size-avatar-sm: 32;
+  --size-avatar-md: 44;
+  --size-avatar-lg: 56;
+  --ink-900-alias: var(--ink-900);
+  --sand-300-alias: var(--sand-300);
+  --accent-500: var(--brand-500);
+  --color-bg-primary: var(--ink-950);
+  --color-bg-secondary: var(--olive-900);
+  --color-surface: var(--ink-900);
+  --color-text-primary: var(--cream-0);
+  --color-text-secondary: var(--sand-300);
+  --color-text-tertiary: var(--mist-200);
+  --color-text-on-brand: var(--ink-950);
+  --color-text-muted: var(--sand-400); /** Muted body text */
+  --color-text-brand: var(--brand-300); /** Brand-coloured text */
+  --color-border-default: var(--olive-800);
+  --color-brand-primary: var(--brand-500);
+  --color-brand-primary-dark: var(--brand-700);
+  --color-success: var(--success-500);
+  --color-danger: var(--danger-500);
+  --color-secondary: var(--teal-300);
+  --color-secondary-deep: var(--teal-800);
+  --color-accent: var(--accent-500);
+}
